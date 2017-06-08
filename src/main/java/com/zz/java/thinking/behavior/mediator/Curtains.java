@@ -1,5 +1,9 @@
 package com.zz.java.thinking.behavior.mediator;
 
+/**
+ * Curtains窗帘
+ *
+ */
 public class Curtains extends Colleague {
 
     public Curtains(Mediator mediator, String name) {

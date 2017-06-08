@@ -23,14 +23,10 @@ public class Employees {
 
     public void getCompensation() {
         for (Employee employee : employees.values()) {
-
-            System.out
-                    .println(employee.getName()
-                            + "'s Compensation is "
-                            + (employee.getDegree()
-                            * employee.getVacationDays() * 100));
-
+            System.out.println(employee.getName()
+                                + "'s Compensation is "
+                                + (employee.getDegree()* employee.getVacationDays() * 100));
         }
-
     }
+
 }

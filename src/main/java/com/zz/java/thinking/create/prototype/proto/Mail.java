@@ -14,7 +14,7 @@ public class Mail implements Cloneable {
     public Mail(EventTemplate et) {
         this.tail = et.geteventContent();
         this.subject = et.geteventSubject();
-
+        ars = new ArrayList<String>();
     }
 
     @Override
