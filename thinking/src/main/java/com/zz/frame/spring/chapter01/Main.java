@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
     	//利用FileSystemResource读取配置文件
-        Resource r = new FileSystemResource(System.getProperty("user.dir") + "\\thinking\\src\\main\\java\\com\\zz\\java\\frame\\spring\\chapter01\\helloMessage.xml");
+        Resource r = new FileSystemResource(System.getProperty("user.dir") + "\\designMode\\src\\main\\java\\com\\zz\\java\\frame\\spring\\chapter01\\helloMessage.xml");
         //利用XmlBeanFactory来加载配置文件，启动IOC容器
         BeanFactory f = new XmlBeanFactory(r);
         //从IOC容器中获取Person类的实例

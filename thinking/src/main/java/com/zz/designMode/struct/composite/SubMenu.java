@@ -1,4 +1,4 @@
-package com.zz.java.thinking.struct.composite;
+package com.zz.designmode.struct.composite;
 
 import java.util.ArrayList;
 import java.util.Iterator;
