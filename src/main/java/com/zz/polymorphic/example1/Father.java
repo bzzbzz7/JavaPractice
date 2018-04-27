@@ -1,4 +1,4 @@
-package com.zz.java.grammar.polymorphic;
+package com.zz.polymorphic.example1;
 
 /**
  * Created by Administrator on 2017/6/9.

@@ -15,11 +15,11 @@ public class MultiWriteFile {
 //		if (file.exists()) {
 //			file.delete();
 //		}
-//		new com.zz.java.io.TestRandomAccessFile.WriteFile(file, 5).start();
-//		new com.zz.java.io.TestRandomAccessFile.WriteFile(file, 3).start();
-//		new com.zz.java.io.TestRandomAccessFile.WriteFile(file, 1).start();
-//		new com.zz.java.io.TestRandomAccessFile.WriteFile(file, 4).start();
-//		new com.zz.java.io.TestRandomAccessFile.WriteFile(file, 2).start();
+//		new com.zz.io.TestRandomAccessFile.WriteFile(file, 5).start();
+//		new com.zz.io.TestRandomAccessFile.WriteFile(file, 3).start();
+//		new com.zz.io.TestRandomAccessFile.WriteFile(file, 1).start();
+//		new com.zz.io.TestRandomAccessFile.WriteFile(file, 4).start();
+//		new com.zz.io.TestRandomAccessFile.WriteFile(file, 2).start();
 
         try {
             RandomAccessFile raf = new RandomAccessFile(file, "r");
