@@ -1,4 +1,4 @@
-package com.zz.polymorphic.example1;
+package com.zz.grammar.polymorphic1;
 
 /**
  * Created by Administrator on 2017/6/9.
