@@ -6,12 +6,14 @@ package com.zz.java.grammar.polymorphic;
 
 public class TestPolymorphic {
     public static void main(String[] args){
-        Father c = new Child();
-        c.eat();
-        //c.play();
-        System.out.println("年龄：" + c.age);
+        Father c1 = new Child();
+        c1.eat();
+        c1.sleep();
+        System.out.println("年龄：" + c1.age);
 
         Child c2 = new Child();
-        c2.info();
+        c2.eat();
+        c2.sleep();
+        System.out.println("年龄：" + c2.age);
     }
 }

@@ -13,7 +13,8 @@ class Father {
     void eat(){
         System.out.println(age + "岁" + "父亲在吃饭");
     }
-    void info(){
-        System.out.println("父亲岁数是：" + age);
+
+    void sleep(){
+        System.out.println(age + "岁" + "父亲在睡觉");
     }
 }

@@ -5,7 +5,7 @@ package com.zz.java.grammar.polymorphic;
  */
 
 class Child extends Father {
-    protected int age = 18;
+    protected int age;
 
     public Child() {
         age = 18;
@@ -13,10 +13,7 @@ class Child extends Father {
 
     @Override
     void eat() {
-        System.out.println("孩子在吃饭");
+        System.out.println(age + "岁"  +"孩子在吃饭");
     }
 
-    void play(){
-        System.out.println("孩子在打CS");
-    }
 }
