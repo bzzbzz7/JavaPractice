@@ -1,7 +1,7 @@
 package com.zz.designmode.struct.adapter.adapter;
 
-import com.zz.designmode.struct.adapter.duck.Duck;
-import com.zz.designmode.struct.adapter.turkey.Turkey;
+import com.zz.designmode.struct.adapter.adapter.duck.Duck;
+import com.zz.designmode.struct.adapter.adapter.turkey.Turkey;
 
 public class TurkeyAdapter implements Duck {
     private Turkey turkey;

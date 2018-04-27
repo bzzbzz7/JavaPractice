@@ -1,9 +1,8 @@
-package com.zz.designmode.struct.adapter;
+package com.zz.designmode.struct.adapter.adapter;
 
-import com.zz.designmode.struct.adapter.adapter.TurkeyAdapter2;
-import com.zz.designmode.struct.adapter.duck.Duck;
-import com.zz.designmode.struct.adapter.duck.GreenHeadDuck;
-import com.zz.designmode.struct.adapter.turkey.WildTurkey;
+import com.zz.designmode.struct.adapter.adapter.duck.Duck;
+import com.zz.designmode.struct.adapter.adapter.duck.GreenHeadDuck;
+import com.zz.designmode.struct.adapter.adapter.turkey.WildTurkey;
 
 
 public class MainTest {

@@ -1,4 +1,4 @@
-package com.zz.designmode.struct.adapter.duck;
+package com.zz.designmode.struct.adapter.adapter.duck;
 
 public interface Duck {
 

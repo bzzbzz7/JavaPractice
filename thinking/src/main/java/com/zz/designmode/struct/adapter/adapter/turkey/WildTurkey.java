@@ -1,4 +1,4 @@
-package com.zz.designmode.struct.adapter.turkey;
+package com.zz.designmode.struct.adapter.adapter.turkey;
 
 public class WildTurkey implements Turkey {
 
