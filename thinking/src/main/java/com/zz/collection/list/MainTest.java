@@ -1,4 +1,4 @@
-package com.zz.java.collection.list;
+package com.zz.collection.list;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

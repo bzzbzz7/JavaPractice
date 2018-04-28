@@ -1,4 +1,4 @@
-package com.zz.java.io.testApacheIO;
+package com.zz.io.testApacheIO;
 
 import org.apache.commons.io.FileUtils;
 

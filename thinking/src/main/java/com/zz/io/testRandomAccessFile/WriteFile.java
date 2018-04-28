@@ -1,4 +1,4 @@
-package com.zz.java.io.testRandomAccessFile;
+package com.zz.io.testRandomAccessFile;
 
 import java.io.File;
 import java.io.FileNotFoundException;

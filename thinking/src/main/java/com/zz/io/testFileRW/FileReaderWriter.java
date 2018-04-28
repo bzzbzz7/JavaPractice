@@ -1,4 +1,4 @@
-package com.zz.java.io.testFileRW;
+package com.zz.io.testFileRW;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -17,7 +17,7 @@ public class TestReflect {
      */
     public static void testReflect() throws Exception {
 
-        Class<SingletonClass> clazzIn = (Class<SingletonClass>) Class.forName("com.zz.java.designMode.create.singleton.SingletonClass$SingletonFactory");
+        Class<SingletonClass> clazzIn = (Class<SingletonClass>) Class.forName("com.zz.designMode.create.singleton.SingletonClass$SingletonFactory");
         Field field = clazzIn.getDeclaredField("INSTANCE");
 
         //将字段的访问权限设为true：即去除private修饰符的影响
@@ -33,7 +33,7 @@ public class TestReflect {
 
 
         //获取单例构造函数
-        Class<SingletonClass> clazz = (Class<SingletonClass>) Class.forName("com.zz.java.designMode.create.singleton.SingletonClass");
+        Class<SingletonClass> clazz = (Class<SingletonClass>) Class.forName("com.zz.designMode.create.singleton.SingletonClass");
         Constructor<SingletonClass> c = clazz.getDeclaredConstructor(null);
         c.setAccessible(true); // 跳过权限检查，可以使用私有构造器
         SingletonClass singleton1 = c.newInstance();

@@ -1,4 +1,4 @@
-package com.zz.java.frame.spring.chapter01;
+package com.zz.frame.spring.chapter01;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;

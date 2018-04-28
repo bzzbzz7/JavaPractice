@@ -1,4 +1,4 @@
-package com.zz.java.frame.spring.chapter01;
+package com.zz.frame.spring.chapter01;
 
 public class HelloChina implements IHelloMessage {
 

@@ -1,4 +1,4 @@
-package com.zz.java.database.sql.mysql;
+package com.zz.database.sql.mysql;
 
 /**
  * Created by zhou.zheng on 2017/6/2.

@@ -1,4 +1,4 @@
-package com.zz.java.collection.set;
+package com.zz.collection.set;
 
 import java.util.EnumSet;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.zz.java.arithmetic;
+package com.zz.arithmetic;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.zz.java.io.testRWCharStream;
+package com.zz.io.testRWCharStream;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

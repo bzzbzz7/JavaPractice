@@ -1,4 +1,4 @@
-package com.zz.java.io.testRWByteStream;
+package com.zz.io.testRWByteStream;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

@@ -15,7 +15,7 @@ public class TestReflect {
      * 测试反射攻击
      */
     public static void testReflect() throws Exception {
-        Class<Singleton> clazz = (Class<Singleton>) Class.forName("com.zz.java.designMode.create.singleton.Singleton");
+        Class<Singleton> clazz = (Class<Singleton>) Class.forName("com.zz.designMode.create.singleton.Singleton");
         Constructor<Singleton> c = clazz.getDeclaredConstructor(null);
         c.setAccessible(true); // 跳过权限检查，可以使用私有构造器
         Singleton singleton1 = c.newInstance();

@@ -1,4 +1,4 @@
-package com.zz.java.arithmetic;
+package com.zz.arithmetic;
 
 /**
  * Created by Administrator on 2017/6/3.

@@ -1,4 +1,4 @@
-package com.zz.java.collection.queue;
+package com.zz.collection.queue;
 
 import java.util.AbstractQueue;
 import java.util.ArrayDeque;
