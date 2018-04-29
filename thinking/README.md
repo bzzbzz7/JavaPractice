@@ -1,2 +1,2 @@
 # Thinking
-java design pattern
+java thinking
