@@ -1,8 +1,8 @@
-package com.zz.designmode.struct.bridge.bridge;
+package com.zz.designmode.struct.bridge.question1.bridge;
 
-import com.zz.designmode.struct.bridge.control.LGControl;
-import com.zz.designmode.struct.bridge.control.SharpControl;
-import com.zz.designmode.struct.bridge.control.SonyControl;
+import com.zz.designmode.struct.bridge.question1.control.LGControl;
+import com.zz.designmode.struct.bridge.question1.control.SharpControl;
+import com.zz.designmode.struct.bridge.question1.control.SonyControl;
 
 
 public class MainTest {

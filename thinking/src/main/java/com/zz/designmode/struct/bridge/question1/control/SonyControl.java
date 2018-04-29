@@ -1,4 +1,4 @@
-package com.zz.designmode.struct.bridge.control;
+package com.zz.designmode.struct.bridge.question1.control;
 
 public class SonyControl implements Control {
 

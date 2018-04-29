@@ -1,6 +1,6 @@
-package com.zz.designmode.struct.bridge.bridge;
+package com.zz.designmode.struct.bridge.question1.bridge;
 
-import com.zz.designmode.struct.bridge.control.Control;
+import com.zz.designmode.struct.bridge.question1.control.Control;
 
 public class TvControl extends TvControlabs {
     private int ch = 0;

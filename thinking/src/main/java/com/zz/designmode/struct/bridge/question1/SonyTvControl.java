@@ -1,6 +1,6 @@
-package com.zz.designmode.struct.bridge;
+package com.zz.designmode.struct.bridge.question1;
 
-import com.zz.designmode.struct.bridge.control.SonyControl;
+import com.zz.designmode.struct.bridge.question1.control.SonyControl;
 
 public class SonyTvControl extends SonyControl implements TvControl {
     private static int ch = 0;

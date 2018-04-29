@@ -1,4 +1,4 @@
-package com.zz.designmode.struct.bridge;
+package com.zz.designmode.struct.bridge.question1;
 
 
 public class MainTest {

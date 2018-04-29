@@ -1,6 +1,6 @@
-package com.zz.designmode.struct.bridge;
+package com.zz.designmode.struct.bridge.question1;
 
-import com.zz.designmode.struct.bridge.control.LGControl;
+import com.zz.designmode.struct.bridge.question1.control.LGControl;
 
 public class LGTvControl extends LGControl implements TvControl {
     private static int ch = 0;

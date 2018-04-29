@@ -1,4 +1,4 @@
-package com.zz.designmode.struct.bridge;
+package com.zz.designmode.struct.bridge.question1;
 
 public interface TvControl {
     public void Onoff();
