@@ -11,11 +11,11 @@ public class Robot implements IRobot {
     public Robot(RemoteControl remoteControl, String name) {
         this.remoteControl = remoteControl;
         this.name = name;
-        this.remoteControl.setRobot(this);
+        this.remoteControl.addObserver(this);
     }
 
     public Robot(RemoteControl remoteControl) {
-        this.remoteControl = remoteControl;
+        this(remoteControl, "Robot");
     }
 
     public String getName() {
@@ -23,20 +23,19 @@ public class Robot implements IRobot {
     }
 
     public void up() {
-        System.out.println("向前走10m");
-
+        System.out.println(name + "向前走10m");
     }
 
     public void down() {
-        System.out.println("向下走10m");
+        System.out.println(name + "向下走10m");
     }
 
     public void left() {
-        System.out.println("向左走10m");
+        System.out.println(name + "向左走10m");
     }
 
     public void right() {
-        System.out.println("向右走10m");
+        System.out.println(name + "向右走10m");
     }
 
     @Override
@@ -49,6 +48,5 @@ public class Robot implements IRobot {
             case 'a':this.left();break;
             case 'd':this.right();break;
         }
-        remoteControl.operaDone();
     }
 }
