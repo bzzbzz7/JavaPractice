@@ -4,6 +4,8 @@ import com.zz.designmode.structure.bridge.question1.control.LGControl;
 import com.zz.designmode.structure.bridge.question1.control.SharpControl;
 import com.zz.designmode.structure.bridge.question1.control.SonyControl;
 
+import java.text.SimpleDateFormat;
+
 
 public class MainTest {
     public static void main(String[] args) {
@@ -31,6 +33,7 @@ public class MainTest {
         mSharpTvControl.setChannel(28);
         mSharpTvControl.Back();
         mSharpTvControl.Onoff();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("");
 
     }
 
