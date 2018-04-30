@@ -1,4 +1,4 @@
-package com.zz.designmode.action.state;
+package com.zz.designmode.action.state.question1.oldmode;
 
 public class CandyMachine {
 
@@ -24,16 +24,13 @@ public class CandyMachine {
                 break;
             case OnReadyState:
                 state = HasCoin;
-                System.out
-                        .println("you have inserted a coin,next,please turn crank!");
+                System.out.println("you have inserted a coin,next,please turn crank!");
                 break;
             case HasCoin:
                 System.out.println("you can't insert another coin!");
-
                 break;
             case SoldState:
                 System.out.println("please wait!we are giving you a candy!");
-
                 break;
         }
 
@@ -42,17 +39,14 @@ public class CandyMachine {
     public void returnCoin() {
         switch (state) {
             case SoldOutState:
-                System.out
-                        .println("you can't return,you haven't inserted a coin yet!");
+                System.out.println("you can't return,you haven't inserted a coin yet!");
                 break;
             case OnReadyState:
                 System.out.println("you haven't inserted a coin yet!");
                 break;
             case HasCoin:
-
                 System.out.println("coin return!");
                 state = OnReadyState;
-
                 break;
             case SoldState:
                 System.out.println("sorry,you already have turned the crank!");
@@ -76,8 +70,7 @@ public class CandyMachine {
                 dispense();
                 break;
             case SoldState:
-                System.out
-                        .println("we are giving you a candy,turning another get nothing,!");
+                System.out.println("we are giving you a candy,turning another get nothing,!");
                 break;
         }
 
@@ -96,7 +89,6 @@ public class CandyMachine {
     }
 
     public void printstate() {
-
         switch (state) {
             case SoldOutState:
                 System.out.println("***SoldOutState***");
@@ -105,14 +97,11 @@ public class CandyMachine {
                 System.out.println("***OnReadyState***");
                 break;
             case HasCoin:
-
                 System.out.println("***HasCoin***");
-
                 break;
             case SoldState:
                 System.out.println("***SoldState***");
                 break;
         }
-
     }
 }

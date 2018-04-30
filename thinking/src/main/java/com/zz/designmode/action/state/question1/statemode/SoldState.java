@@ -1,4 +1,4 @@
-package com.zz.designmode.action.state.state;
+package com.zz.designmode.action.state.question1.statemode;
 
 public class SoldState implements State {
     private CandyMachine mCandyMachine;
@@ -24,8 +24,7 @@ public class SoldState implements State {
     @Override
     public void turnCrank() {
         // TODO Auto-generated method stub
-        System.out
-                .println("we are giving you a candy,turning another get nothing,!");
+        System.out.println("we are giving you a candy,turning another get nothing,!");
 
     }
 

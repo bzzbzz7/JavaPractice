@@ -1,4 +1,4 @@
-package com.zz.designmode.action.state.state;
+package com.zz.designmode.action.state.question1.statemode;
 
 public interface State {
     public void insertCoin();

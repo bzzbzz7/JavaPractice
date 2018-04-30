@@ -1,4 +1,4 @@
-package com.zz.designmode.action.state;
+package com.zz.designmode.action.state.question1.oldmode;
 
 public class MainTest {
     public static void main(String[] args) {
