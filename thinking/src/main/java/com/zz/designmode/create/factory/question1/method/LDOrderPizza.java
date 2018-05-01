@@ -1,8 +1,8 @@
-package com.zz.designmode.create.factory.method;
+package com.zz.designmode.create.factory.question1.method;
 
-import com.zz.designmode.create.factory.pizza.LDCheesePizza;
-import com.zz.designmode.create.factory.pizza.LDPepperPizza;
-import com.zz.designmode.create.factory.pizza.Pizza;
+import com.zz.designmode.create.factory.question1.pizza.LDCheesePizza;
+import com.zz.designmode.create.factory.question1.pizza.LDPepperPizza;
+import com.zz.designmode.create.factory.question1.pizza.Pizza;
 
 public class LDOrderPizza extends OrderPizza {
 

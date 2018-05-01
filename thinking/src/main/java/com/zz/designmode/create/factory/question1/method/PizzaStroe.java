@@ -1,4 +1,4 @@
-package com.zz.designmode.create.factory.method;
+package com.zz.designmode.create.factory.question1.method;
 
 
 public class PizzaStroe {

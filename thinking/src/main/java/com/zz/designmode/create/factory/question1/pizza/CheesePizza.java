@@ -1,4 +1,4 @@
-package com.zz.designmode.create.factory.pizza;
+package com.zz.designmode.create.factory.question1.pizza;
 
 public class CheesePizza extends Pizza {
 

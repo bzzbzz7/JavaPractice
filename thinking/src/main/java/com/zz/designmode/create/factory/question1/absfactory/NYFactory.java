@@ -1,8 +1,8 @@
-package com.zz.designmode.create.factory.absfactory;
+package com.zz.designmode.create.factory.question1.absfactory;
 
-import com.zz.designmode.create.factory.pizza.NYCheesePizza;
-import com.zz.designmode.create.factory.pizza.NYPepperPizza;
-import com.zz.designmode.create.factory.pizza.Pizza;
+import com.zz.designmode.create.factory.question1.pizza.NYCheesePizza;
+import com.zz.designmode.create.factory.question1.pizza.NYPepperPizza;
+import com.zz.designmode.create.factory.question1.pizza.Pizza;
 
 public class NYFactory implements AbsFactory {
 

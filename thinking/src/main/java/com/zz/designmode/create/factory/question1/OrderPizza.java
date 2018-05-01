@@ -1,10 +1,10 @@
-package com.zz.designmode.create.factory;
+package com.zz.designmode.create.factory.question1;
 
-import com.zz.designmode.create.factory.pizza.ChinesePizza;
-import com.zz.designmode.create.factory.pizza.PepperPizza;
-import com.zz.designmode.create.factory.pizza.Pizza;
-import com.zz.designmode.create.factory.pizza.CheesePizza;
-import com.zz.designmode.create.factory.pizza.GreekPizza;
+import com.zz.designmode.create.factory.question1.pizza.ChinesePizza;
+import com.zz.designmode.create.factory.question1.pizza.PepperPizza;
+import com.zz.designmode.create.factory.question1.pizza.Pizza;
+import com.zz.designmode.create.factory.question1.pizza.CheesePizza;
+import com.zz.designmode.create.factory.question1.pizza.GreekPizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;

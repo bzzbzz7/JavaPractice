@@ -1,8 +1,8 @@
-package com.zz.designmode.create.factory.absfactory;
+package com.zz.designmode.create.factory.question1.absfactory;
 
-import com.zz.designmode.create.factory.pizza.LDCheesePizza;
-import com.zz.designmode.create.factory.pizza.LDPepperPizza;
-import com.zz.designmode.create.factory.pizza.Pizza;
+import com.zz.designmode.create.factory.question1.pizza.LDCheesePizza;
+import com.zz.designmode.create.factory.question1.pizza.LDPepperPizza;
+import com.zz.designmode.create.factory.question1.pizza.Pizza;
 
 public class LDFactory implements AbsFactory {
 

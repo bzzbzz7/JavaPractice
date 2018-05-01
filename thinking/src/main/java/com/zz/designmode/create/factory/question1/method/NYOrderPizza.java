@@ -1,8 +1,8 @@
-package com.zz.designmode.create.factory.method;
+package com.zz.designmode.create.factory.question1.method;
 
-import com.zz.designmode.create.factory.pizza.Pizza;
-import com.zz.designmode.create.factory.pizza.NYCheesePizza;
-import com.zz.designmode.create.factory.pizza.NYPepperPizza;
+import com.zz.designmode.create.factory.question1.pizza.Pizza;
+import com.zz.designmode.create.factory.question1.pizza.NYCheesePizza;
+import com.zz.designmode.create.factory.question1.pizza.NYPepperPizza;
 
 public class NYOrderPizza extends OrderPizza {
 

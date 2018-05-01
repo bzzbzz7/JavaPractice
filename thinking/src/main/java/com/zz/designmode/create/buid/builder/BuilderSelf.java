@@ -46,6 +46,5 @@ public class BuilderSelf {
     public Vacation getVacation() {
 
         return mVacation;
-
     }
 }

@@ -1,4 +1,4 @@
-package com.zz.designmode.create.factory.simplefactory;
+package com.zz.designmode.create.factory.question1.simplefactory;
 
 
 public class PizzaStroe {

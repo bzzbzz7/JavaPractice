@@ -1,11 +1,11 @@
-package com.zz.designmode.create.factory.pizza;
+package com.zz.designmode.create.factory.question1.pizza;
 
-public class LDPepperPizza extends Pizza {
+public class NYCheesePizza extends Pizza {
 
     @Override
     public void prepare() {
         // TODO Auto-generated method stub
-        super.setname("LDPepperPizza");
+        super.setname("NYCheesePizza");
 
         System.out.println(name + " preparing;");
     }

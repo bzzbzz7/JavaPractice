@@ -1,6 +1,6 @@
-package com.zz.designmode.create.factory.simplefactory;
+package com.zz.designmode.create.factory.question1.simplefactory;
 
-import com.zz.designmode.create.factory.pizza.Pizza;
+import com.zz.designmode.create.factory.question1.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;

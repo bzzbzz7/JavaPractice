@@ -1,4 +1,4 @@
-package com.zz.designmode.create.factory.pizza;
+package com.zz.designmode.create.factory.question1.pizza;
 
 public abstract class Pizza {
     protected String name;

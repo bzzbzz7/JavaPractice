@@ -1,9 +1,9 @@
-package com.zz.designmode.create.factory.simplefactory;
+package com.zz.designmode.create.factory.question1.simplefactory;
 
-import com.zz.designmode.create.factory.pizza.CheesePizza;
-import com.zz.designmode.create.factory.pizza.PepperPizza;
-import com.zz.designmode.create.factory.pizza.Pizza;
-import com.zz.designmode.create.factory.pizza.GreekPizza;
+import com.zz.designmode.create.factory.question1.pizza.CheesePizza;
+import com.zz.designmode.create.factory.question1.pizza.PepperPizza;
+import com.zz.designmode.create.factory.question1.pizza.Pizza;
+import com.zz.designmode.create.factory.question1.pizza.GreekPizza;
 
 public class SimplePizzaFactory {
 
