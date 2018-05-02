@@ -1,4 +1,4 @@
-package com.zz.designmode.create.singleton.test.SingletonClassClass;
+package com.zz.designmode.create.singleton.test.SingletonClass;
 
 import com.zz.designmode.create.singleton.SingletonClass;
 
