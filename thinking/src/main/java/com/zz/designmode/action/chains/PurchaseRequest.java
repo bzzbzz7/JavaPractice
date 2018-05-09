@@ -12,15 +12,15 @@ public class PurchaseRequest {
         this.Price = Price;
     }
 
-    public int GetType() {
+    public int getType() {
         return Type;
     }
 
-    public float GetSum() {
+    public float getSum() {
         return Number * Price;
     }
 
-    public int GetID() {
+    public int getID() {
         return (int) (Math.random() * 1000);
     }
 }

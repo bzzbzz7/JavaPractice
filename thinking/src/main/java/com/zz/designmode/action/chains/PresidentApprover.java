@@ -8,13 +8,13 @@ public class PresidentApprover extends Approver {
     }
 
     @Override
-    public void ProcessRequest(PurchaseRequest request) {
+    public void processRequest(PurchaseRequest request) {
         // TODO Auto-generated method stub
-        if (50000 <= request.GetSum()) {
-            System.out.println("**This request " + request.GetID()
+        if (50000 <= request.getSum()) {
+            System.out.println("**This request " + request.getID()
                     + " will be handled by " + this.Name + " **");
         } else {
-            successor.ProcessRequest(request);
+            successor.processRequest(request);
         }
     }
 

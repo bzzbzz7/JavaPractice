@@ -1,4 +1,4 @@
-package com.zz.designmode.action.command;
+package com.zz.designmode.action.command.control;
 
 public interface Control {
 

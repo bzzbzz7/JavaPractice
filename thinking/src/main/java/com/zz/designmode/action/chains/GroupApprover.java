@@ -9,15 +9,15 @@ public class GroupApprover extends Approver {
     }
 
     @Override
-    public void ProcessRequest(PurchaseRequest request) {
+    public void processRequest(PurchaseRequest request) {
         // TODO Auto-generated method stub
 
-        if (request.GetSum() < 5000) {
-            System.out.println("**This request " + request.GetID()
+        if (request.getSum() < 5000) {
+            System.out.println("**This request " + request.getID()
                     + " will be handled by "
                     + this.Name + " **");
         } else {
-            successor.ProcessRequest(request);
+            successor.processRequest(request);
         }
     }
 

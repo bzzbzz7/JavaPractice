@@ -1,6 +1,7 @@
-package com.zz.designmode.action.command.command;
+package com.zz.designmode.action.command.control;
 
-import com.zz.designmode.action.command.Control;
+import com.zz.designmode.action.command.command.Command;
+import com.zz.designmode.action.command.command.NoCommand;
 
 import java.util.Stack;
 

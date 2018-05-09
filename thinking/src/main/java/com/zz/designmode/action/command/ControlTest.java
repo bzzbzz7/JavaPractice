@@ -1,5 +1,7 @@
 package com.zz.designmode.action.command;
 
+import com.zz.designmode.action.command.control.Control;
+import com.zz.designmode.action.command.control.TraditionControl;
 import com.zz.designmode.action.command.device.Light;
 import com.zz.designmode.action.command.device.Stereo;
 

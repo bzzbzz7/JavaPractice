@@ -8,9 +8,9 @@ public abstract class Approver {
         this.Name = Name;
     }
 
-    public abstract void ProcessRequest(PurchaseRequest request);
+    public abstract void processRequest(PurchaseRequest request);
 
-    public void SetSuccessor(Approver successor) {
+    public void setSuccessor(Approver successor) {
         // TODO Auto-generated method stub
         this.successor = successor;
     }
